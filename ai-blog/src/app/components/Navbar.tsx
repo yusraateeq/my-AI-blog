@@ -1,39 +1,3 @@
-// "use client";
-
-// import Link from "next/link";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="bg-gradient-to-r from-purple-500 via-red-400 to-rose-500 text-white p-4 shadow-lg border-b-4">
-//       <div className="container mx-auto flex justify-between">
-//         <Link href="/" className="font-bold text-3xl">
-//           AI Blog
-//         </Link>
-//         <div className="space-x-6">
-//           <Link href="/" className="hover:underline font-bold">
-//             Home
-//           </Link>
-//           <Link href="/About" className="hover:underline font-bold">
-//             About Us
-//           </Link>
-//           <Link href="/Contact" className="hover:underline font-bold">
-//             Contact
-//           </Link>
-//           <Link href="/create" className="hover:underline font-bold">
-//             Create Post
-//           </Link>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-
-
-
-
 "use client";
 
 import { useState } from "react";
