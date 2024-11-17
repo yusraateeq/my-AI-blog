@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="flex-grow container mx-auto p-4 my-10 bg-slate-100">
         <h1 className="text-5xl font-bold mb-4 text-center">Contact Me</h1>
         {submitted ? (
-          <p className="text-rose-500">Thank you for contacting us! We'll get back to you soon.</p>
+          <p className="text-rose-500">Thank you for contacting us! We will get back to you soon.</p>
         ) : (
           <form  onSubmit={handleSubmit} className="max-w-lg mx-auto" method="POST">
             <div className="mb-4">
