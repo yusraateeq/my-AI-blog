@@ -79,7 +79,7 @@ const BlogDetails = () => {
         <div className="mt-6">
           <h3 className="text-3xl font-bold mb-4">Comments</h3>
           {comments.map((c, idx) => (
-            <p key={idx} className="border-b p-4 bg-slate-200 rounded-lg py-8 text-lg font-bold">{c}</p>
+            <p key={idx} className="border-b p-4 bg-slate-200 mb-6 rounded-lg py-8 text-lg font-bold">{c}</p>
           ))}
           <input
             className="border p-2 mt-4 w-full"
